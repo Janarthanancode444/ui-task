@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>logo</title>
+    <style>
+      #box1 {
+        height: 80px;
+        background-color: rgb(240, 246, 246);
+        text-align: center;
+      }
+      #logo {
+        padding: 20px;
+      }
+      #box2 {
+        padding: 30px;
+        margin-top: 15px;
+        height: 30px;
+        background-color: rgb(240, 246, 246);
+        text-align: center;
+        font-size: large;
+      }
+      .linktext {
+        padding-left: 30px;
+      }
+      #feature {
+        margin-top: 30px;
+        height: 150px;
+        background-color:  rgb(240, 246, 246) ;
+        text-align: center;
+      }
+      .columnone {
+        margin-left: -25px;
+        margin-top: 10px;
+        height: 150px;
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto auto;
+        background-color:  white;
+        padding: 10px;
+      }
+    .columnone > div {
+  background-color:  rgb(234, 243, 243);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: -25px;
+}
+#buttom{
+  margin-top: 20px;
+  background-color: rgb(234, 243, 243);
+  height: 100px;
+  text-align: center;
+}
+#copy{ 
+  padding: 40px
+}
+.example {
+  padding: 20px;
+}
+  .col-4 {width: 33.33%;}
+@media only screen and (max-width: 600px) {
+  .example {background:  white;}
+}
+@media only screen and (min-width: 600px) {
+  .example {background:  white;}
+}
+
+@media only screen and (min-width: 768px) {
+  .example {background:  white;}
+} 
+@media only screen and (min-width: 992px) {
+  .example {background:  white;}
+} 
+@media only screen and (min-width: 1200px) {
+  .example {background: white;}
+}   
+</style>
+  </head>
+    <div id="box1">
+      <h1 id="logo">Logo</h1>
+    </div>
+    <div id="box2">
+      <a href="" class="linktext">Home</a>
+      <a href="" class="linktext">Products</a>
+      <a href="" class="linktext">Service</a>
+      <a href="" class="linktext">About</a>
+      <a href="" class="linktext">Contact</a>
+    </div>
+    <div id="feature">
+      <h3>Feature</h3>
+    </div>
+    <div class=" example columnone ">
+      <div>
+      Column One
+      </div>
+      <div>
+      Column Two
+      </div>
+      <div>
+     Column Three
+      </div>
+      
+    </div>
+    <div id="buttom"><h4 id="copy">&copy; Copyright 2011</h4></div>
+  </body>
+</html>
