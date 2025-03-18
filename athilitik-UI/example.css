@@ -32,21 +32,18 @@ body {
 }
 
 .dash-line {
-  margin-top: 18px;
   border-top: dashed 3px rgba(228, 228, 226, 0.881);
 }
 
+.w-125 {
+  min-width: 564px;
+}
 
 @media screen and (max-width:576px) {
   .min-screen {
     overflow-x: auto;
-    width: 100%;
-    white-space: nowrap;
   }
 
-  .w-125 {
-    width: 564px;
-  }
 }
 
 .t-color {
