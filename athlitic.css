@@ -15,10 +15,7 @@
   border-top: 2px dashed rgb(194, 191, 191);
 }
 .sh-90{
-  height:90vh !important;
-}
-.nh-10{
-  height:10vh;
+  height:92vh !important;
 }
 @media (max-width: 576px) {
   .scroll-sm-ch{
